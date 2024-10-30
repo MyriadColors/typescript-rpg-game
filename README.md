@@ -1,8 +1,8 @@
-# Vanilla RPG 2
+# Dragon Repeller
 
 ## Introduction
 
-Vanilla RPG 2 is an expanded and improved version of the role-playing game created in the FreeCodeCamp tutorial "Learn Basic JavaScript by Building a Role Playing Game". This project takes the original concept and enhances it with TypeScript implementation, improved code structure, and an enhanced user interface.
+Dragon Repeller is an expanded and improved version of the role-playing game created in the FreeCodeCamp tutorial "Learn Basic JavaScript by Building a Role Playing Game". This project takes the original concept and enhances it with TypeScript implementation, improved code structure, and an enhanced user interface.
 
 ## Project Overview
 
