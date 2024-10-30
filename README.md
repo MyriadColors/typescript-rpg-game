@@ -52,4 +52,3 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Acknowledgements
 
 - Original concept from FreeCodeCamp's JavaScript tutorial
-- Expanded and enhanced by [Your Name]
