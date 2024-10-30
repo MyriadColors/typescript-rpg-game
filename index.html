@@ -7,25 +7,25 @@
     <link rel="stylesheet" href="./src/style.css">
   </head>
   <body>
-    <div id="game">
-      <div id="stats">
-        <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
-        <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
-        <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
-      </div>
-      <div id="controls">
+    <main id="game">
+      <header id="stats">
+        <p class="stat">XP: <strong><span id="xpText">0</span></strong></p>
+        <p class="stat">Health: <strong><span id="healthText">100</span></strong></p>
+        <p class="stat">Gold: <strong><span id="goldText">50</span></strong></p>
+      </header>
+      <nav id="controls">
         <button id="button1">Go to store</button>
         <button id="button2">Go to cave</button>
         <button id="button3">Fight dragon</button>
-      </div>
-      <div id="monsterStats">
-        <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
-        <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
-      </div>
-      <div id="text">
-        Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.
-      </div>
-    </div>
+      </nav>
+      <section id="monsterStats">
+        <p class="stat">Monster Name: <strong><span id="monsterName"></span></strong></p>
+        <p class="stat">Health: <strong><span id="monsterHealth"></span></strong></p>
+      </section>
+      <section id="text">
+        <p>Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.</p>
+      </section>
+    </main>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
