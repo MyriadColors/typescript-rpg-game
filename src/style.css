@@ -1,0 +1,108 @@
+:root {
+  --background-color: #2c2c2c;
+  --text-color: #dbd2b6;
+  --primary-color: #7c6c54;
+  --secondary-color: #4e4a4e;
+  --accent-color: #a17c5b;
+  --danger-color: #8c3d3d;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'MedievalSharp', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#game {
+  width: 100%;
+  max-width: 600px;
+}
+
+#stats, #controls, #monsterStats {
+  border: 2px solid var(--accent-color);
+  padding: 15px;
+  color: var(--text-color);
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: rgba(161, 124, 91, 0.1);
+  min-height: 80px;
+}
+
+#text {
+  background-color: rgba(124, 108, 84, 0.2);
+  color: var(--text-color);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  height: 200px;
+  overflow-y: auto;
+}
+
+#monsterStats {
+  display: none;
+  border-color: var(--danger-color);
+  background-color: rgba(140, 61, 61, 0.1);
+}
+
+.stat {
+  padding-right: 20px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex: 1 1 calc(33.333% - 10px);
+  min-width: 120px;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(78, 74, 78, 0.5);
+}
+
+button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(124, 108, 84, 0.5);
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  button {
+    padding: 10px 15px;
+    font-size: 14px;
+    flex: 1 1 calc(50% - 5px);
+  }
+
+  .stat {
+    padding-right: 15px;
+    font-size: 14px;
+  }
+}
